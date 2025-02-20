@@ -1,0 +1,97 @@
+/* styles/Cart.css */
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full page height */
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff, #ffffff); /* Soft gradient */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.cart-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cart-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Cart Items List */
+.cart-items {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual Cart Item */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.cart-item .item-info {
+    flex: 1;
+    margin-left: 15px;
+    text-align: left;
+}
+
+/* Remove Button */
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #ff0000;
+}
+
+/* Checkout Button */
+.checkout-btn {
+    background-color: #ffcc00;
+    color: black;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.checkout-btn:hover {
+    background-color: #ff9900;
+}
+/* Empty cart image */
+.empty-cart-img {
+    width: 150px;  /* Adjust size as needed */
+    height: auto;  /* Maintain aspect ratio */
+    max-width: 100%;  /* Prevent overflow */
+    margin-bottom: 15px;  /* Spacing */
+    opacity: 0.8;  /* Optional transparency */
+}

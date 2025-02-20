@@ -1,0 +1,101 @@
+/* Center the login container */
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Title styling */
+.login-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Subtext */
+.login-subtext {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Error message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Login button */
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a0c1b; /* Matching maroon color */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #460914;
+}
+
+/* Social login section */
+.social-login {
+    margin-top: 15px;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: white;
+    color: #333;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 10px;
+}
+
+.google-login:hover {
+    background: #f8f8f8;
+}
+
+.facebook-login:hover {
+    background: #f0f0f0;
+}
+
+/* Signup text */
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #5a0c1b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}

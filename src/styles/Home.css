@@ -1,0 +1,38 @@
+/* styles/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+    color: rgb(123, 164, 187);
+}
+
+.home-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.shop-now-btn {
+    background-color: #5a0c1b;
+    ;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.shop-now-btn:hover {
+    background-color: #ff9900;
+}
